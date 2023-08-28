@@ -27,6 +27,7 @@ mat-card-title-group .div {
 }
 
 .beat-info {
+  float: left;
   padding-top: 100px;
   color: #fbfeff;
 }

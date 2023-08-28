@@ -8,3 +8,11 @@
   background-color: #151515;
   color: #fbfeff;
 }
+
+.nav-bar {
+  position: sticky;
+  width: 100%;
+  background-color: #151515;
+  color: white;
+  text-align: center;
+}
