@@ -1,0 +1,32 @@
+.card {
+  max-width: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1em;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #c7493a;
+  color: #fbfeff;
+}
+
+.song-smalll-text {
+  font-size: small;
+}
+
+mat-card-title-group .div {
+  padding-left: 15px;
+  padding-top: 104px;
+}
+
+.beat-info {
+  padding-top: 100px;
+  color: #fbfeff;
+}

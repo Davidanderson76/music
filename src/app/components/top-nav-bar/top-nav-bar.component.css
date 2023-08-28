@@ -1,0 +1,10 @@
+::ng-deep .mat-toolbar-row,
+.mat-toolbar-single-row {
+  background-color: #151515 !important;
+  color: #fbfeff;
+}
+
+::ng-deep .mat-mdc-menu-panel.mat-mdc-menu-panel {
+  background-color: #151515;
+  color: #fbfeff;
+}

@@ -1,0 +1,29 @@
+<div class="container">
+  <div *ngFor="let beat of songs" class="item">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title-group>
+          <div class="beat-info">
+            <mat-card-title>{{beat.name}}</mat-card-title>
+            <br />
+            <mat-card-subtitle>{{beat.key}}</mat-card-subtitle>
+            <br />
+            <mat-card-subtitle>{{beat.bpm}} BPM</mat-card-subtitle>
+          </div>
+          <img mat-card-xl-image src="{{beat.art}}" />
+        </mat-card-title-group>
+      </mat-card-header>
+
+      <figure>
+        <audio controls src="{{beat.wav}}">
+          <a href="{{beat.wav}}"> Download audio </a>
+        </audio>
+      </figure>
+
+      <br />
+      <mat-card-footer>
+        <mat-progress-bar mode="buffer"></mat-progress-bar>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</div>
