@@ -15,15 +15,11 @@
       </mat-card-header>
 
       <figure>
-        <audio controls src="{{beat.wav}}">
-          <a href="{{beat.wav}}"> Download audio </a>
+        <audio controls preload="none" src="{{beat.wav}}">
+          <!-- <a href="{{beat.wav}}"> Download audio </a> -->
         </audio>
       </figure>
-
-      <br />
-      <mat-card-footer>
-        <mat-progress-bar mode="buffer"></mat-progress-bar>
-      </mat-card-footer>
     </mat-card>
   </div>
+  <br />
 </div>

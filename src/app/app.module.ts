@@ -15,6 +15,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
+import { MatExpansionModule } from '@angular/material/expansion';
+
 import {
   MAT_SNACK_BAR_DEFAULT_OPTIONS,
   MatSnackBarModule,
@@ -27,6 +29,7 @@ import { TopNavBarComponent } from './components/top-nav-bar/top-nav-bar.compone
 import { FooterComponent } from './components/footer/footer.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { MusicPlayerComponent } from './components/music-player/music-player.component';
+import { AlbumPanelComponent } from './components/album-panel/album-panel.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,7 @@ import { MusicPlayerComponent } from './components/music-player/music-player.com
     FooterComponent,
     HomePageComponent,
     MusicPlayerComponent,
+    AlbumPanelComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,6 +58,7 @@ import { MusicPlayerComponent } from './components/music-player/music-player.com
     MatBottomSheetModule,
     MatListModule,
     MatGridListModule,
+    MatExpansionModule,
   ],
   providers: [
     { provide: MAT_SNACK_BAR_DEFAULT_OPTIONS, useValue: { duration: 2500 } },
